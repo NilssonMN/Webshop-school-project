@@ -6,8 +6,6 @@ Projektet ska implementeras med trelagerarkitektur:
 - Affärslogiklager (service-klasser)
 - Datalager (repository/DAO)
 
-## Krav för Godkänt (G)
-
 ### Kunder
 - Göra en INSERT till customers-tabellen
 - Göra en UPDATE i customers-tabellen. Uppdatera kundens email.
@@ -34,30 +32,6 @@ Projektet ska implementeras med trelagerarkitektur:
 ### Felhantering
 - Hantera SQL-undantag med tydliga felmeddelanden (vi vill veta vad som gick fel)
 - Användarvänliga meddelanden när något går fel
-
-## Krav för Väl Godkänt (VG)
-
-### Inloggning
-- Logga in som kund
-- Sessionhantering (hålla reda på inloggad kund)
-
-### Kundvagn
-- Lägga till produkter i kundvagn
-- Ta bort produkter från kundvagn
-- Ändra antal av produkter i kundvagn
-- Omvandla kundvagn till order
-
-### Recensioner
-- Lämna recensioner på köpta produkter
-- Visa produkters genomsnittliga betyg
-
-### OOP
-- Minst ett exempel på arv och polymorfism
-- Implementation av minst ett designmönster
-
-### Avancerad filtrering
-- Filtrering av produkter med Stream API
-- Kombinerad filtrering (flera filtreringsvillkor)
 
 ## Tekniska krav
 - JDBC för databasåtkomst
